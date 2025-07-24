@@ -7,29 +7,29 @@
 ```
 .  
 ├── data/
-│   ├── raw/                  # البيانات الأصلية قبل المعالجة
+│   ├── raw/                 
 │   │   └── Housing_Price_Data_clean.csv
-│   └── processed/            # البيانات المعالجة والجاهزة للتدريب
+│   └── processed/           
 │       ├── X_processed.csv
 │       └── y.csv
-├── notebooks/                # دفاتر Jupyter لكل نموذج
+├── notebooks/                
 │   ├── logistic_regression_model.ipynb
 │   ├── knn_model.ipynb
 │   ├── decision_tree_model.ipynb
 │   ├── random_forest_model.ipynb
 │   └── xgboost_model.ipynb
-├── src/                      # الأكواد المصدرية (مثل معالجة البيانات وحفظ النماذج)
+├── src/                     
 │   ├── data_processing.py
 │   ├── logistic_regression_model.pkl
 │   ├── knn_model.pkl
 │   ├── decision_tree_model.pkl
 │   ├── random_forest_model.pkl
 │   └── xgboost_model.pkl
-├── utils/                    # الملفات المساعدة (إن وجدت)
-├── service/                  # الأنظمة المنفصلة (إن وجدت)
-├── doc/                      # التوثيقات
+├── utils/                   
+├── service/                  
+├── doc/                     
 │   └── project_documentation.md
-└── README.md                 # هذا الملف
+└── README.md                 
 ```
 
 ## النماذج المدربة
