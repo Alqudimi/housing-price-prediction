@@ -26,7 +26,7 @@
 │   ├── random_forest_model.pkl
 │   └── xgboost_model.pkl
 ├── utils/                   
-├── service/                  
+│   └── model_utils.py           
 ├── doc/                     
 │   └── project_documentation.md
 └── README.md                 
